@@ -54,3 +54,5 @@ gem 'tzinfo-data'
 gem "hotwire-rails", "~> 0.1.0"
 
 gem "importmap-rails", "~> 1.1"
+
+gem "devise", "~> 4.9"
