@@ -8,6 +8,7 @@
   <%= render "tweets/form", tweet: @tweet %>
 <% end %>
 
+<%= turbo_stream_from "tweets" %>
 <%= turbo_frame_tag "tweets" do %>
   <%= render @tweets %>
 <% end %>
